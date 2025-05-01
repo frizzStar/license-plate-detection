@@ -1,0 +1,7 @@
+# Ignore videos and extracted frames
+data/raw/
+data/extracted_frames/
+
+# Ignore Environment files
+venv/
+.env
