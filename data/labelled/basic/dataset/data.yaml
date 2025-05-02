@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['car', 'license_plate', 'motorcycle']
+
+roboflow:
+  workspace: jimspace-gyx6w
+  project: vehicle-license-plate-detection-mglom
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jimspace-gyx6w/vehicle-license-plate-detection-mglom/dataset/2
